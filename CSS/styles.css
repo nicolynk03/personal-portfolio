@@ -69,8 +69,84 @@ body {
     color: var(--background);
 }
 
-
+/* general */
+.container {
+    margin: 8rem 7rem;
+}
 
 .content {
     padding: 16px;
 }
+
+span {
+    color: #be9023;
+}
+
+h1,
+h2,
+p {
+    color: var(--maincolourpair);
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 28px;
+}
+
+
+/* landing page */
+
+#home {
+    padding: 3rem;
+}
+
+.landing-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    /* for responsiveness on smaller screens */
+    flex-wrap: wrap;
+}
+
+.landing-text {
+    flex: 1;
+    min-width: 250px;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    height: auto;
+    width: 250px;
+    max-width: 100%;
+}
+
+.land-button {
+    background-color: var(--alt);
+    border: none;
+    color: var(--altcolourpair);
+    padding: 14px 20px;
+    border-radius: 20px;
+    margin-top: 18px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
