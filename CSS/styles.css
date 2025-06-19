@@ -103,7 +103,7 @@ p {
 
 /* landing page */
 
-#home {
+#home, #about {
     padding: 3rem;
 }
 
@@ -119,6 +119,11 @@ p {
 .landing-text {
     flex: 1;
     min-width: 250px;
+}
+
+.landing-content, .short-about {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .profile-image img {
@@ -139,8 +144,9 @@ p {
     font-size: medium;
 }
 
-
-
+.short-about {
+    margin-bottom: 10px;
+}
 
 
 
