@@ -32,6 +32,7 @@
     </nav>
 
     <div class="container">
+        <!-- home page/landing page/hero -->
         <div class="content" id="home">
             <h2>Hello there! Nicolyn here.</h2>
             <div class="landing-title">
@@ -45,7 +46,7 @@
                     </div>
                     <a href="docs\Nicolyn Kwok Resume.pdf" target="_blank"><button
                             class="land-button">Résumé</button></a>
-                    <button class="land-button">Let's keep in touch</button>
+                    <a href="#contact"><button class="land-button">Let's keep in touch</button></a>
                 </div>
 
                 <div class="profile-image">
@@ -54,6 +55,7 @@
             </div>
         </div>
 
+        <!-- introduction about section -->
         <div class="content" id="about">
             <h2>About Me</h2>
             <div class="short-about">
@@ -65,14 +67,35 @@
             </div>
             <a href="about.html"><button class="land-button">View more</button></a>
         </div>
+        
+
+        <!-- contact section -->
+        <div class="content" id="contact">
+            <h2>Let's get in touch</h2>
+            <p>I am always up for exciting opportunities, please feel free to chat through my email or by filling out the form below.</p>
+            <p>Email: <a href="mailto:hellonicolynk@gmail.com">hellonicolynk@gmail.com</a></p>
+            <div class="contact-form">
+                <form action="mailto:hellonicolynk@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Name<span>*</span>:</label><br>
+                    <input type="text" id="name" name="name" required placeholder="Name"><br>
+
+                    <label for="email">Email address<span>*</span>:</label><br>
+                    <input type="email" name="email" id="email" required placeholder="Email address"><br>
+
+                    <label for="organisation">Organisation (optional):</label><br>
+                    <input type="text" id="organisation" id="organisation" placeholder="Organisation"><br>
+
+                    <label for="message">Message<span>*</span>:</label><br>
+                    <textarea name="message" id="message" required placeholder="How may I help you?"></textarea><br>
+
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
     </div>
 
 
     <footer>&copy; <script>document.write(new Date().getFullYear())</script> Nicolyn Kwok</footer>
-
-
-
-
 
 </body>
 

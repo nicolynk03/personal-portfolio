@@ -95,18 +95,22 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
-}
-
-h3 {
     font-size: 28px;
 }
 
-p {
+h3 {
     font-size: 26px;
 }
 
-#home, #about, #current-stuff, #experience {
+p {
+    font-size: 25px;
+}
+
+#home,
+#about,
+#current-stuff,
+#experience,
+#contact {
     padding: 3rem;
 }
 
@@ -127,7 +131,8 @@ p {
     min-width: 250px;
 }
 
-.landing-content, .short-about {
+.landing-content,
+.short-about {
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -140,14 +145,14 @@ p {
 }
 
 .about-picture img {
-    border-radius: 30%;    
+    border-radius: 30%;
     width: 250px;
     float: left;
     margin-right: 20px;
     margin-bottom: 10px;
 }
 
-.land-button {
+.land-button, input[type=submit] {
     background-color: var(--alt);
     border: none;
     color: var(--altcolourpair);
@@ -183,16 +188,18 @@ p {
     display: flex;
     gap: 18rem;
     justify-content: center;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 7rem;
+    margin-right: 12rem;
 }
 
-.currently-learning-list, .current-tools {
+.currently-learning-list,
+.current-tools {
     flex: 1;
     padding: 10px;
 }
 
-.currently-learning-list li, .current-tools li {
+.currently-learning-list li,
+.current-tools li {
     font-size: 24px;
 }
 
@@ -220,10 +227,38 @@ p {
 
 
 
+/* contact form */
+.contact-form {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    color: var(--maincolourpair);
+}
+
+input[type=text],
+input[type=email] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
 
 
-
-
+textarea {
+    resize: none;
+    width: 95%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
 
 
 
@@ -236,8 +271,3 @@ footer {
     text-align: center;
     padding: 5px;
 }
-
-
-
-
-
