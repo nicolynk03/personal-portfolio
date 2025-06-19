@@ -84,7 +84,10 @@ span {
 
 h1,
 h2,
-p {
+h3,
+h4,
+p,
+li {
     color: var(--maincolourpair);
 }
 
@@ -96,16 +99,20 @@ h2 {
     font-size: 30px;
 }
 
-p {
+h3 {
     font-size: 28px;
 }
 
+p {
+    font-size: 26px;
+}
+
+#home, #about, #current-stuff, #experience {
+    padding: 3rem;
+}
 
 /* landing page */
 
-#home, #about {
-    padding: 3rem;
-}
 
 .landing-title {
     display: flex;
@@ -171,5 +178,38 @@ p {
     margin-bottom: 20px;
 }
 
+
+
+#current-stuff {
+    display: flex;
+    gap: 18rem;
+    justify-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.currently-learning-list, .current-tools {
+    flex: 1;
+    padding: 10px;
+}
+
+.currently-learning-list li, .current-tools li {
+    font-size: 24px;
+}
+
+
+
+.experience-card {
+    margin: 2rem 2rem;
+}
+
+.experience-title {
+    display: flex;
+    gap: 2rem;
+}
+
+.experience-title h3 a {
+    color: #be9023;
+}
 
 
