@@ -133,6 +133,14 @@ p {
     max-width: 100%;
 }
 
+.about-picture img {
+    border-radius: 30%;    
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
 .land-button {
     background-color: var(--alt);
     border: none;
@@ -148,11 +156,20 @@ p {
     margin-bottom: 10px;
 }
 
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 
+.about-content-text {
+    flex: 1;
+}
 
-
-
-
+.about-content-text p {
+    margin-bottom: 20px;
+}
 
 
 
