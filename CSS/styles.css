@@ -68,6 +68,15 @@ body {
     color: var(--background);
 }
 
+.navbar-extra {
+    display: none;
+    color: var(--altcolourpair);
+}
+
+.navbar .navbar-extra a {
+    color: var(--altcolourpair);
+}
+
 /* general */
 .container {
     margin: 8rem 7rem;
@@ -311,3 +320,41 @@ footer {
     text-align: center;
     padding: 5px;
 }
+
+
+/* media queries */
+@media (max-width: 758px) {
+    .navbar-extra {
+        display: flex;
+    }
+
+    .navbar .navbar-nav {
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: #af9e79;
+        width: 25rem;
+        height: 100vh;
+        transition: 0.3s;
+    }
+
+    .navbar .navbar-nav.active {
+        right: 0;
+    }
+
+    .navbar .navbar-nav a {
+        color: var(--alt);
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+
+    .navbar .navbar-nav a:hover  {
+        color: var(--background);
+    }
+
+}
+
+
+
