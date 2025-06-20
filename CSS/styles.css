@@ -163,6 +163,11 @@ p {
     font-size: medium;
 }
 
+.land-button:hover {
+    background-color: var(--altcolourpair);
+    color: var(--alt);
+}
+
 .short-about {
     margin-bottom: 10px;
 }
@@ -220,10 +225,36 @@ p {
 
 
 
+/* socials */
+.socials {
+    display: flex;
+    gap: 2rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+    cursor: pointer;
+}
+
+.socials a {
+    background-color: var(--alt);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+    height: 50px;
+
+    transition: background-color 0.3s ease;
+}
 
 
-
-
+.socials svg {
+    stroke: var(--altcolourpair);
+}
 
 
 
