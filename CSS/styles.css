@@ -79,8 +79,25 @@ body {
 
 /* general */
 .container {
-    margin: 8rem 7rem;
+    margin: 4rem 1.5rem;
 }
+/* Tablets and up */
+@media (min-width: 768px) {
+    .container {
+        margin: 6rem 4rem;
+    }
+}
+
+/* Laptops and desktops */
+@media (min-width: 992px) {
+    .container {
+        margin: 8rem 7rem;
+    }
+}
+
+/* .container {
+    margin: 8rem 7rem;
+} */
 
 .content {
     padding: 16px;
@@ -323,7 +340,8 @@ footer {
 
 
 /* media queries */
-@media (max-width: 758px) {
+
+@media (max-width: 768px) {
     .navbar-extra {
         display: flex;
     }
@@ -353,8 +371,6 @@ footer {
     .navbar .navbar-nav a:hover  {
         color: var(--background);
     }
-
 }
-
 
 
