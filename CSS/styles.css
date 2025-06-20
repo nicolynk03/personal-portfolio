@@ -163,7 +163,7 @@ p {
     font-size: medium;
 }
 
-.land-button:hover {
+.land-button:hover{
     background-color: var(--altcolourpair);
     color: var(--alt);
 }
@@ -249,6 +249,7 @@ p {
     height: 50px;
 
     transition: background-color 0.3s ease;
+    text-decoration: none;
 }
 
 
@@ -256,6 +257,14 @@ p {
     stroke: var(--altcolourpair);
 }
 
+.socials a:hover{
+    background-color: var(--altcolourpair);
+    color: var(--alt);
+}
+
+.socials svg:hover {
+    stroke: var(--alt);
+}
 
 
 /* contact form */
